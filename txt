@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtividadeMarcin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url('imgs/charlesbronx.jpg'); background-size: cover; background-attachment: fixed;">
+    <div class="BarraSuperior">
+        <img src="imgs/luvas.png" width="80" height="auto" alt="IconeLuva">
+        <h1 style="font-size: 28px; color: white;">Homepage</h1>
+    </div>
+    <h1 style="font-size: 40px; color: white;">Muay Thai</h1>
+    <p style="font-size: 28px; color: #ffffff;"> O Muay Thai, ou boxe tailandês, é uma arte marcial milenar de alta intensidade conhecida como "a arte das oito armas", utilizando punhos, cotovelos, joelhos e canelas. Focada no combate em pé e no condicionamento físico, a prática desenvolve força, disciplina e defesa pessoal, sendo excelente para queima de gordura e alívio de estresse.  </p>
+    <ul><!--Lista de links-->
+
+        <li><a href="historia.html">História</a></li>
+        <li><a href="Golpes.html">Lista de Golpes</a></li>
+        <li><a href="prajieds.html">Prajieds</a></li>
+    </ul>
+</body>
+
+</html>
+
+--
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muay Thai</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <div class="BarraSuperior">
+        <img src="imgs/luvas.png" width="80" height="auto" alt="IconeLuva">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="golpes.html">Golpes</a></li>
+            <li><a href="graduacoes.html">Graduações</a></li>
+        </ul>
+    </div>
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <h1>MUAY THAI</h1>
+        <p>A ARTE DAS 8 ARMAS</p>
+    </div>
+
+</section>
+
+</body>
+</html>

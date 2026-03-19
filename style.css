@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.BarraSuperior {
+    background-color: #67676713;
+    padding: 20px 75px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0 1px 10px #67676720;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Conteudo {
+    background: linear-gradient(to left, #4d0000, #6b0000, #6b0000);
+    padding: 40px;
+}
+
+.Conteudo h1 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 48px;
+    padding: 0px 30px 10px;
+}
+
+.Conteudo p {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 0 30px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu a:hover {
+    color: rgb(179, 13, 13);
+    text-decoration: underline;
+}
+
+.menu a {
+    /* botoes da navbar */
+    color: white;
+    text-decoration: none;
+}
+
+/* texto */
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.titulo h1 {
+    font-size: 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 40px;
+}
+
+.titulo p {
+    color: red;
+    letter-spacing: 20px;
+    margin-top: 20px;
+}
+
+.Box {
+    display: flex;
+    gap: 20px;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.SmallBox {
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(134, 19, 19);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(96, 3, 3, 0.823);
+    padding: 20px 20px 100px 20px;
+    width: 46%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.SmallBox:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 10px 25px rgba(96, 3, 3, 0.9); 
+}
+
+.Box h1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    margin-right: 100%;
+    margin-bottom: 10px;
+}
